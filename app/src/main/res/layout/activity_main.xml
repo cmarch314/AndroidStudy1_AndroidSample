@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="191dp"
-        android:layout_height="54dp"
+        android:layout_height="wrap_content"
         android:text="@string/converted_result"
         android:textAlignment="center"
         android:textSize="20sp"
@@ -19,7 +19,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.485" />
+        app:layout_constraintVertical_bias="0.454" />
 
     <Button
         android:id="@+id/button"
@@ -47,6 +47,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.725" />
+        app:layout_constraintVertical_bias="0.627" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
